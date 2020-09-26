@@ -1,7 +1,7 @@
 {
   "name": "cvku",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "homepage": "https://amuyassar17.github.io/cvku",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -16,10 +16,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
